@@ -1,5 +1,4 @@
 macro(AW_CHECK_CUDA)
-  message(WARNING "NDT = ${NDT_COMPILE_WITH_CUDA}")
   if (${NDT_COMPILE_WITH_CUDA})
     find_package(CUDA REQUIRED)
     find_package(Eigen3 REQUIRED)
