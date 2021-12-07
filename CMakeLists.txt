@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(ndt_gpu)
 
-set(NDT_COMPILE_WITH_CUDA True)
-
 set(CMAKE_MODULE_PATH
   "${CMAKE_CURRENT_SOURCE_DIR}/cmake" ${CMAKE_CURRENT_SOURCE_DIR})
 include(check_cuda)
